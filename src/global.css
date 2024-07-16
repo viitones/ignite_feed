@@ -11,7 +11,14 @@
   --green: #00875f;
   --green-light: #00b37e;
 
+  --red-danger: #F75A68;
+
   --font-family: 'Roboto', sans-serif;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--green);
 }
 
 * {

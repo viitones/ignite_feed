@@ -1,8 +1,9 @@
 
 import styles from "./app.module.css"
 
-import { Header } from "./components/header";
-import { Sidebar } from "./components/sidebar";
+import { Header } from "./components/Header";
+import { Sidebar } from "./components/Sidebar";
+import { Post } from "./components/Post";
 
 export function App() {
 
@@ -14,9 +15,8 @@ export function App() {
         <div className={styles.wrapper}>
           <Sidebar />
           <main>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem placeat quis sequi perspiciatis? Ipsa ab fuga esse illo placeat totam nisi, cupiditate optio iste quia, dicta odio sit blanditiis deserunt.</p>
-              <br /> 
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem placeat quis sequi perspiciatis? Ipsa ab fuga esse illo placeat totam nisi, cupiditate optio iste quia, dicta odio sit blanditiis deserunt.</p>
+              <Post />
+              <Post />
           </main>
         </div>
       </div>
