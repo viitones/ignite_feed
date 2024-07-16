@@ -1,7 +1,7 @@
-import styles from "./styles.module.css"
-
 import { Comment } from "./Comment"
+import { Avatar } from "../Avatar"
 
+import styles from "./styles.module.css"
 
 export function Post() {
 
@@ -9,7 +9,7 @@ return (
   <article className={styles.post}>
     <header>
       <div>
-        <img src={"https://github.com/viitones.png"}/>
+        <Avatar src="https://github.com/viitones.png" />
         <div>
           <strong>Victor Hugo</strong>
           <span>Web Developer</span>
